@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "history": [],
+      "behavior": {
+        "left": 0.5,
+        "right": 0.5
+      },
+      "target": {
+        "left": 0.75,
+        "right": 0.25
+      },
+      "reward": {
+        "left": 1,
+        "right": 0
+      }
+    },
+    {
+      "history": [
+        "left"
+      ],
+      "behavior": {
+        "left": 0.5,
+        "right": 0.5
+      },
+      "target": {
+        "left": 0.75,
+        "right": 0.25
+      },
+      "reward": {
+        "left": 0,
+        "right": 2
+      }
+    },
+    {
+      "history": [
+        "right"
+      ],
+      "behavior": {
+        "left": 0.5,
+        "right": 0.5
+      },
+      "target": {
+        "left": 0.75,
+        "right": 0.25
+      },
+      "reward": {
+        "left": 0,
+        "right": 2
+      }
+    }
+  ],
+  "discount": 0.9,
+  "target_expected_return": 1.2
+}
